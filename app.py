@@ -1,10 +1,12 @@
 # flask
 
-添加测试
+from flask import Flask, render_template, request
 
-666
+app=Flak(_name_)
 
+@app.route("/",methods=["GET","POST"])
+def index():
+  return(render_template("index.html")
 
-
-
-vcc
+if __name__=="__main__":
+         app.run()
